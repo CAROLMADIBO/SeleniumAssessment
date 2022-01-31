@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.selenium.assessment.SetUp">
+        <methods>
+          <include name="setup"/>
+          <include name="flushing"/>
+          <include name="EvaluateResult"/>
+        </methods>
+      </class> <!-- com.selenium.assessment.SetUp -->
+      <class name="com.selenium.assessment.UserLogout">
+        <methods>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- com.selenium.assessment.UserLogout -->
+      <class name="com.selenium.assessment.SearchUser">
+        <methods>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- com.selenium.assessment.SearchUser -->
+      <class name="com.selenium.assessment.SearchDeletedUser">
+        <methods>
+          <include name="SearchDeleted"/>
+        </methods>
+      </class> <!-- com.selenium.assessment.SearchDeletedUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
